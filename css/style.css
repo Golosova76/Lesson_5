@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:regular,italic,500,500italic,700,700italic&display=swap");
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("../fonts/CormorantGaramond-Bold.woff2") format("woff2"),
+    url("../fonts/CormorantGaramond-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("../fonts/CormorantGaramond-BoldItalic.woff2") format("woff2"),
+    url("../fonts/CormorantGaramond-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("../fonts/CormorantGaramond-Regular.woff2") format("woff2"),
+    url("../fonts/CormorantGaramond-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Обнуление стилей */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+body,
+html {
+  height: 100%;
+  line-height: 1;
+}
+
+/* Просто стили */
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+/* Верстка макета */
+
+.homework1 {
+  margin-left: 345px;
+  max-width: 810px;
+  margin-bottom: 60px;
+}
+
+.h1 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 1.3;
+  color: #1e212c;
+  margin-bottom: 92px;
+}
+
+img {
+  margin-bottom: 60px;
+}
+
+.big {
+  margin-bottom: 48px;
+}
+
+.test {
+  margin-bottom: 39px;
+}
+
+.text {
+  margin-bottom: 48px;
+  padding-left: 58px;
+}
+
+.text2 {
+  margin-bottom: 24px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #424551;
+}
+
+.paragraph {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  color: #1e212c;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #1e212c;
+}
+
+.list {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  color: #424551;
+}
+
+.list li {
+  margin-bottom: 4px;
+  padding-left: 32px;
+}
+
+/* Для тренировки, чтобы немножко разделить */
+
+.name-two {
+  font-weight: 900;
+  font-size: 26px;
+  text-decoration: underline;
+  margin-bottom: 60px;
+}
+
+/* Верстка статьи */
+
+.header {
+  margin-bottom: 40px;
+}
+
+.homework {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.name-one {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-size: 38px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+.case {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-size: 26px;
+  text-decoration: underline;
+  margin: 0 50px 20px 50px;
+  /* margin-bottom: 20px; */
+}
+
+.fact {
+  margin-bottom: 20px;
+}
+
+.fact li {
+  padding: 10px 10px 10px 40px;
+}
+
+.part1,
+.part2,
+.part3,
+.part4 {
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.part {
+  line-height: 1.2;
+  max-width: 800px;
+  margin: 0 0 20px auto;
+}
+
+.part1 {
+  max-height: 200px;
+  max-width: 400px;
+  overflow: auto;
+  margin-left: 50px;
+}
+
+.part3 {
+  font-style: italic;
+  padding: 80px 50px 100px 200px;
+  color: brown;
+}
+
+.part4 {
+  max-width: 45%;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 10px 20px;
+}
+
+.part5 {
+  line-height: 1.2;
+  max-width: 45%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer {
+  margin-bottom: 40px;
+}
+
+.span {
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: underline;
+  color: red;
+}
+
+.img {
+  width: 680px;
+  height: 185px;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+}

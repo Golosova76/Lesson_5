@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Lesson 5 - Курс Зима 2022</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">Header</header>
+      <main class="main">
+        <div class="homework">
+          <h2 class="name-one">
+            Инструменты разработчика для проектировщика. Про HTML и CSS
+          </h2>
+          <h3 class="case">Зачем проектировщику инструменты разработчика</h3>
+          <ul class="fact">
+            <li>
+              менять дизайн элементов — кегли и гарнитуру шрифта, цвета и тени,
+              анимацию, отступы;
+            </li>
+            <li>
+              тестировать сервис — менять разрешение экрана и скорость
+              интернета, подставлять в сервис тексты любой длины, проверять
+              правильность отступов и цветов;
+            </li>
+            <li>
+              править мелкие баги и передавать разработчику готовый код вместо
+              объяснения на пальцах.
+            </li>
+          </ul>
+          <h3 class="case">Общее про инструменты разработчика</h3>
+          <p class="part">
+            Инструменты разработчика в разных браузерах немного отличаются
+            внешним видом и фнукционалом. В примерах статьи используется Crome.
+            Как открыть инспектор: с помощью сочетания Command+Alt+I
+            (Ctrl+Shift+I для Win) или F12 (Fn + F12) или кликнуть правой
+            кнопкой на любое место страницы → «Исследовать элемент» или
+            «Посмотреть код».
+          </p>
+          <p class="part1">
+            Положение веб-инспектора на экране можно настроить. Для этого
+            нажмите на кебаб-меню справа и выберите положение: если расположить
+            веб-инспектор справа или слева, можно растягивать панель по ширине и
+            проверять поведение страницы на разных экранах без спецрежима. Если
+            внизу, растягивать панель по высоте — иногда это помогает проверить
+            поведение залипающих элементов и лайтбоксов с большой высотойю Как
+            отдельное окно, можно разместить браузер и средства разработчика на
+            разных мониторах и удобно верстать.
+          </p>
+          <h3 class="case">Вкладка Elements</h3>
+          <p class="part2">
+            Вкладка Elements содержит HTML и CSS страницы. Можно менять разметку
+            и стили, но после перезагрузки страницы изменения пропадут.
+          </p>
+          <div class="img">
+            <img src="img/foto.jpeg" alt="Картинка" />
+          </div>
+          <h3 class="case">HTML</h3>
+          <p class="part3">
+            В левой части вкладки отображается HTML-код страницы. Элементы можно
+            перетаскивать и менять местами, удалять и скрывать, менять классы и
+            содержимое. Чтобы поменять элементы страницы местами, перетащите их
+            мышкой. Для изменения текста, выберите элемент на странице и дважды
+            щелкните на текст внутри него. Чтобы скрыть элемент, нажмите H или
+            выберите в контекстном меню Hide element. Чтобы удалить элемент,
+            выберите его и нажмите Delete или Backspace.
+          </p>
+          <h3 class="case">CSS</h3>
+          <p class="part4">
+            В правой части отображаются CSS-стили, которые относятся к
+            выбранному в HTML элементу. Во вкладке Styles отображаются все
+            стили, которые относятся к выбранному элементу. Но не все из них
+            применяются — зачёркнутые правила переопределены другим значением.
+            Стили можно включать и выключать с помощью чекбокса, менять значение
+            с клавиатуры, добавлять новые правила. Стили разделены по
+            CSS-селекторам, которые применимы к выбранному элементу, и по
+            файлам, в которых эти правила прописаны. Чтобы открыть CSS-файл,
+            нажмите на название файла — он откроется во вкладке Sources. Все
+            стили, которые применены к элементу, отображаются во вкладке
+            Computed. Там же есть специальный прямоугольник, который показывает
+            внутренние и внешние отступы элемента.
+          </p>
+          <p class="part5">
+            Чтобы посмотреть стили для кнопок, ссылок и контролов в состояниях
+            ховера, фокуса, активности нужно следующее. Правой кнопкой нажать на
+            HTML элемента и в списке Force State выбрать нужное состояние,
+            справа отобразятся стили для этого состояния. Или выбрать элемент в
+            HTML, нажать на :hov в верхней части CSS-стилей, и выбрать нужное
+            состояние в списке. Иногда эти способы могут не сработать (чаще
+            всего это происходит с контролами). Тогда поможет остановка
+            выполнения скриптов страницы — приведите контрол в нужное состояние,
+            например, поместите туда курсор или введите значение, а потом
+            нажмите Cmd+\. Чтобы передать свои стили разработчику, напишите их в
+            отдельном файле стилей. Для этого нажмите на иконку плюса в правом
+            верхнем углу — появится CSS-селектор для выделенного элемента.
+            Напишите в него нужные стили. Браузер сформирует файл стилей
+            inspector-stylesheet, в него попадут все стили, написанные этим
+            способом. Этот файл можно сохранить.
+          </p>
+        </div>
+        <div class="homework1">
+          <h2 class="name-two">Верстка блока из макета OnlineCourse</h2>
+          <h1 class="h1">
+            HR statistics: job search, interviews, hiring and recruiting
+          </h1>
+          <img src="img/макет.png" alt="картинка" />
+          <p class="paragraph">
+            Vulputate vitae pellentesque scelerisque luctus consequat mattis
+            pellentesque dui odio. Interdum aenean sit malesuada ornare sed
+            gravida rhoncus, congue. Purus auctor nullam diam quis est hendrerit
+            ac euismod.
+          </p>
+          <div class="big">
+            <p class="test">
+              At facilisi sapien posuere eget nunc senectus proin nullam. Tortor
+              senectus in et sagittis, vitae diam cras dignissim. Varius
+              adipiscing eget diam nisi. Orci, consectetur vulputate metus
+              ornare pharetra, neque, fermentum. Vel nec rhoncus, non nunc,
+              neque in massa. Feugiat leo nam nisl lacinia amet, odio. Mi varius
+              viverra risus vel.
+            </p>
+            <p>
+              Amet, morbi sed pharetra, elit eget mi potenti. Condimentum orci
+              interdum feugiat lectus libero duis. Nisl massa, elementum varius
+              sit. Nunc felis, porttitor aliquam urna, accumsan et sed. Aliquet
+              non sed duis diam vehicula rhoncus. In dictum nullam tincidunt
+              semper pellentesque purus morbi sed. Ut aliquet velit pharetra,
+              nisi nunc, non.
+            </p>
+          </div>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet
+            lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed
+            purus facilisi. Vitae id turpis tempus ornare turpis quis non.
+            Congue tortor in tot euismod vulputate etiam eros. Vel accumsan at
+            elit neque, ipsum.
+          </p>
+          <p class="text2">
+            Mauris amet arcu nisl vel dictum tellus. Sed rhoncus, ut sed id ut
+            erat mattis. Vitae mus blandit in neque amet non fringilla blandit:
+          </p>
+          <ul class="list">
+            <li>
+              A fermentum in morbi pretium aliquam adipiscing donec tempus.
+            </li>
+            <li>Vulputate placerat amet pulvinar lorem nisl.</li>
+            <li>
+              Consequat feugiat habitant gravida quisque elit bibendum id
+              adipiscing sed.
+            </li>
+            <li>Etiam duis lobortis in fames ultrices commodo nibh.</li>
+          </ul>
+          <p>
+            Enim, vel massa odio diam. Blandit massa gravida feugiat elementum
+            id nec sed leo. Nisi in ornare lectus eget. Urna, risus, consectetur
+            volutpat lorem purus. Velit aliquet nibh vitae maecenas. Consectetur
+            neque ut aliquam eros, purus enim dignissim aenean vitae. Ultrices
+            fames augue mattis tortor est justo, pharetra nibh risus. Facilisi
+            at porttitor volutpat natoque proin amet, nulla. Vivamus ut lobortis
+            sagittis curabitur tellus convallis eget netus vitae.
+          </p>
+        </div>
+      </main>
+      <footer class="footer">
+        <div>
+          <p>
+            Ссылки не будет, но статья взята с сайта
+            <span class="span">tproger.ru</span>
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
